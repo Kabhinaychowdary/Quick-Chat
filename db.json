@@ -1,0 +1,288 @@
+{
+  "users": [
+    {
+      "id": "user_1764655917263",
+      "name": "Test User",
+      "email": "test@example.com",
+      "password": "password123",
+      "avatar": null,
+      "status": "online",
+      "friends": [],
+      "createdAt": "2025-12-02T06:11:57.263Z",
+      "lastSeen": "2025-12-02T06:11:57.263Z"
+    },
+    {
+      "id": "user_1764655969183",
+      "name": "sandeep",
+      "email": "sandeep@gmail.com",
+      "password": "123456",
+      "avatar": null,
+      "status": "online",
+      "friends": [
+        "user_1764656014296"
+      ],
+      "createdAt": "2025-12-02T06:12:49.183Z",
+      "lastSeen": "2025-12-02T06:12:49.183Z"
+    },
+    {
+      "id": "user_1764656014296",
+      "name": "ajay",
+      "email": "ajay@gmail.com",
+      "password": "123456",
+      "avatar": null,
+      "status": "online",
+      "friends": [
+        "user_1764655969183",
+        "user_1764659832595",
+        "user_1764739620610"
+      ],
+      "createdAt": "2025-12-02T06:13:34.296Z",
+      "lastSeen": "2025-12-02T06:13:34.297Z"
+    },
+    {
+      "id": "user_1764659832595",
+      "name": "karthik",
+      "email": "karthik@gmail.com",
+      "password": "123456",
+      "avatar": null,
+      "status": "online",
+      "friends": [
+        "user_1764656014296",
+        "user_1764676439135",
+        "user_1764994362409"
+      ],
+      "createdAt": "2025-12-02T07:17:12.595Z",
+      "lastSeen": "2025-12-02T07:17:12.595Z"
+    },
+    {
+      "id": "user_1764676439135",
+      "name": "nikhil",
+      "email": "nikhil@gmail.com",
+      "password": "123456",
+      "avatar": null,
+      "status": "online",
+      "friends": [
+        "user_1764659832595"
+      ],
+      "createdAt": "2025-12-02T11:53:59.135Z",
+      "lastSeen": "2025-12-02T11:53:59.135Z"
+    },
+    {
+      "id": "user_1764739620610",
+      "name": "abhishek",
+      "email": "abhishek@gmail.com",
+      "password": "abcdef",
+      "avatar": null,
+      "status": "online",
+      "friends": [
+        "user_1764656014296"
+      ],
+      "createdAt": "2025-12-03T05:27:00.610Z",
+      "lastSeen": "2025-12-03T05:27:00.610Z"
+    },
+    {
+      "id": "user_1764994362409",
+      "name": "aditya",
+      "email": "aditya@gmail.com",
+      "password": "abcdef",
+      "avatar": null,
+      "status": "online",
+      "friends": [
+        "user_1764659832595"
+      ],
+      "createdAt": "2025-12-06T04:12:42.409Z",
+      "lastSeen": "2025-12-06T04:12:42.409Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_1764659419645",
+      "type": "direct",
+      "name": null,
+      "participants": [
+        "user_1764655969183",
+        "user_1764656014296"
+      ],
+      "createdAt": "2025-12-02T07:10:19.645Z",
+      "lastMessage": "i am fine how are you",
+      "lastMessageTime": "2025-12-02T07:11:29.641Z",
+      "unreadCount": 0
+    },
+    {
+      "id": "conv_1764659871815",
+      "type": "direct",
+      "name": null,
+      "participants": [
+        "user_1764656014296",
+        "user_1764659832595"
+      ],
+      "createdAt": "2025-12-02T07:17:51.816Z",
+      "lastMessage": "hi karthik how are you",
+      "lastMessageTime": "2025-12-02T07:18:04.535Z",
+      "unreadCount": 0
+    },
+    {
+      "id": "conv_1764676485861",
+      "type": "direct",
+      "name": null,
+      "participants": [
+        "user_1764659832595",
+        "user_1764676439135"
+      ],
+      "createdAt": "2025-12-02T11:54:45.861Z",
+      "lastMessage": "nikhil",
+      "lastMessageTime": "2025-12-02T11:55:06.744Z",
+      "unreadCount": 0
+    },
+    {
+      "id": "conv_1764739683318",
+      "type": "direct",
+      "name": null,
+      "participants": [
+        "user_1764656014296",
+        "user_1764739620610"
+      ],
+      "createdAt": "2025-12-03T05:28:03.318Z",
+      "lastMessage": "no i an in the day",
+      "lastMessageTime": "2025-12-03T05:29:29.344Z",
+      "unreadCount": 0
+    },
+    {
+      "id": "conv_1764994434514",
+      "type": "direct",
+      "name": null,
+      "participants": [
+        "user_1764659832595",
+        "user_1764994362409"
+      ],
+      "createdAt": "2025-12-06T04:13:54.514Z",
+      "lastMessage": "hello aditya how are you",
+      "lastMessageTime": "2025-12-06T04:14:08.793Z",
+      "unreadCount": 0
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_1764659430227",
+      "conversationId": "conv_1764659419645",
+      "senderId": "user_1764655969183",
+      "content": "hi hell how are you",
+      "timestamp": "2025-12-02T07:10:30.227Z",
+      "status": "sent"
+    },
+    {
+      "id": "msg_1764659489641",
+      "conversationId": "conv_1764659419645",
+      "senderId": "user_1764656014296",
+      "content": "i am fine how are you",
+      "timestamp": "2025-12-02T07:11:29.641Z",
+      "status": "sent"
+    },
+    {
+      "id": "msg_1764659884535",
+      "conversationId": "conv_1764659871815",
+      "senderId": "user_1764656014296",
+      "content": "hi karthik how are you",
+      "timestamp": "2025-12-02T07:18:04.535Z",
+      "status": "sent"
+    },
+    {
+      "id": "msg_1764676497713",
+      "conversationId": "conv_1764676485861",
+      "senderId": "user_1764659832595",
+      "content": "hi hello how are you karthik",
+      "timestamp": "2025-12-02T11:54:57.713Z",
+      "status": "sent"
+    },
+    {
+      "id": "msg_1764676506744",
+      "conversationId": "conv_1764676485861",
+      "senderId": "user_1764659832595",
+      "content": "nikhil",
+      "timestamp": "2025-12-02T11:55:06.744Z",
+      "status": "sent"
+    },
+    {
+      "id": "msg_1764739693421",
+      "conversationId": "conv_1764739683318",
+      "senderId": "user_1764656014296",
+      "content": "hey dude are you in the java class now",
+      "timestamp": "2025-12-03T05:28:13.421Z",
+      "status": "sent"
+    },
+    {
+      "id": "msg_1764739742032",
+      "conversationId": "conv_1764739683318",
+      "senderId": "user_1764739620610",
+      "content": "are you down tonight",
+      "timestamp": "2025-12-03T05:29:02.032Z",
+      "status": "sent"
+    },
+    {
+      "id": "msg_1764739769344",
+      "conversationId": "conv_1764739683318",
+      "senderId": "user_1764656014296",
+      "content": "no i an in the day",
+      "timestamp": "2025-12-03T05:29:29.344Z",
+      "status": "sent"
+    },
+    {
+      "id": "msg_1764994448793",
+      "conversationId": "conv_1764994434514",
+      "senderId": "user_1764659832595",
+      "content": "hello aditya how are you",
+      "timestamp": "2025-12-06T04:14:08.793Z",
+      "status": "sent"
+    }
+  ],
+  "friendRequests": [
+    {
+      "id": "freq_12345",
+      "senderId": "user_1764656014296",
+      "receiverId": "user_1764655969183",
+      "status": "accepted",
+      "createdAt": "2025-12-02T06:30:00.000Z",
+      "updatedAt": "2025-12-02T07:10:08.874Z"
+    },
+    {
+      "id": "freq_1764659839255",
+      "senderId": "user_1764659832595",
+      "receiverId": "user_1764655969183",
+      "status": "pending",
+      "createdAt": "2025-12-02T07:17:19.255Z",
+      "updatedAt": "2025-12-02T07:17:19.255Z"
+    },
+    {
+      "id": "freq_1764659844638",
+      "senderId": "user_1764659832595",
+      "receiverId": "user_1764656014296",
+      "status": "accepted",
+      "createdAt": "2025-12-02T07:17:24.638Z",
+      "updatedAt": "2025-12-02T07:17:41.265Z"
+    },
+    {
+      "id": "freq_1764676454880",
+      "senderId": "user_1764676439135",
+      "receiverId": "user_1764659832595",
+      "status": "accepted",
+      "createdAt": "2025-12-02T11:54:14.880Z",
+      "updatedAt": "2025-12-02T11:54:37.470Z"
+    },
+    {
+      "id": "freq_1764739633827",
+      "senderId": "user_1764739620610",
+      "receiverId": "user_1764656014296",
+      "status": "accepted",
+      "createdAt": "2025-12-03T05:27:13.827Z",
+      "updatedAt": "2025-12-03T05:27:50.472Z"
+    },
+    {
+      "id": "freq_1764994385437",
+      "senderId": "user_1764994362409",
+      "receiverId": "user_1764659832595",
+      "status": "accepted",
+      "createdAt": "2025-12-06T04:13:05.437Z",
+      "updatedAt": "2025-12-06T04:13:41.351Z"
+    }
+  ]
+}
